@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>⌨️ Typing Speed Test</h1>
 
+      <div class="difficulty">
+        <button class="difficulty-btn active" data-time="30">30s</button>
+        <button class="difficulty-btn" data-time="60">60s</button>
+        <button class="difficulty-btn" data-time="120">2min</button>
+      </div>
+
+      <div class="stats">
+        <div class="stat-box">
+          <div class="stat-label">Words Per Minute</div>
+          <div class="stat-value" id="wpm">0</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Accuracy</div>
+          <div class="stat-value" id="accuracy">100%</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-label">Time Left</div>
+          <div class="stat-value" id="timeLeft">30</div>
+        </div>
+      </div>
+
+      <div class="text-display" id="textDisplay">
+        Click "Start Test" to begin typing the text that will appear here.
+      </div>
+
+      <textarea
+        id="textInput"
+        placeholder="Type the text above here..."
+        disabled
+      ></textarea>
+
+      <div class="timer-bar">
+        <div class="timer-fill" id="timerFill" style="width: 100%"></div>
+      </div>
+
+      <div class="controls">
+        <button class="start-btn" id="startBtn">Start Test</button>
+        <button class="submit-btn" id="submitBtn" disabled>Submit Test</button>
+        <button class="reset-btn" id="resetBtn">Reset</button>
+      </div>
+    </div>
+
+    <div class="result-modal hidden" id="resultModal">
+      <div class="result-content">
+        <h2>Test Complete!</h2>
+        <div class="stats" style="margin: 20px 0">
+          <div class="stat-box">
+            <div class="stat-label">Final WPM</div>
+            <div class="stat-value" id="finalWpm">0</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">Accuracy</div>
+            <div class="stat-value" id="finalAccuracy">0%</div>
+          </div>
+        </div>
+        <button class="start-btn" onclick="closeResults()">Try Again</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
