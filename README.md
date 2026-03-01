@@ -1,1 +1,1 @@
-# typing-speed-analyzer
+# typing-speed-tester
