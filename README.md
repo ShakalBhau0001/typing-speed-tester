@@ -16,7 +16,6 @@ typing-speed-tester/
 ├── index.html        # Application structure
 ├── style.css         # Styling and layout design
 ├── script.js         # Typing logic and calculations
-│
 └── README.md         # Project documentation
 ```
 
@@ -139,5 +138,11 @@ No server, build tools, or external dependencies are required.
 > **Shakal Bhau**
 
 > **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
