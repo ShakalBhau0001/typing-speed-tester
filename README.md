@@ -13,6 +13,7 @@ It is developed as a frontend practice project to strengthen DOM manipulation sk
 ```bash
 typing-speed-tester/
 │
+├── assets/           # Screenshots
 ├── index.html        # Application structure
 ├── style.css         # Styling and layout design
 ├── script.js         # Typing logic and calculations
@@ -133,9 +134,21 @@ No server, build tools, or external dependencies are required.
 
 ---
 
+## 📸 Preview
+
+### 1. Main UI
+
+![Rich CLI Preview](assets/Type.png)
+
+### 2. Result UI
+
+![Rich CLI Preview](assets/Result.png)
+
+---
+
 ## 🪪 Author
 
-> **Shakal Bhau**
+> **Creator: Shakal Bhau**
 
 > **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
 
